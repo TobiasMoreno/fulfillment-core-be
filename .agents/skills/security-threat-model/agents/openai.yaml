@@ -1,0 +1,4 @@
+interface:
+  display_name: "Modelado de amenazas"
+  short_description: "Analiza amenazas antes de aprobar un diseño"
+  default_prompt: "Usa $security-threat-model para modelar las amenazas de este cambio y señalar las decisiones humanas pendientes."

@@ -20,6 +20,13 @@ Orden de autoridad:
 
 Hasta esa aprobación está permitido trabajar únicamente en fundación, tooling, documentación y pruebas de esa fundación. No crear agregados, endpoints ni flujos de órdenes, inventario, pagos o envíos.
 
+## Skills obligatorias
+
+- Usar `$security-threat-model` antes de proponer o implementar autenticación/autorización, endpoints externos, datos sensibles, integraciones HTTP/mensajería o un nuevo límite de confianza.
+- Usar `$security-code-review` al revisar cambios que afecten entradas HTTP, autorización, persistencia, mensajería, integraciones externas, secretos o infraestructura.
+- Usar `$security-dependency-audit` al agregar o actualizar dependencias, plugins, Maven Wrapper o imágenes, y antes de preparar una release.
+- Estas skills producen evidencia y recomendaciones; no sustituyen los gates de aprobación humana ni autorizan cambios fuera de alcance.
+
 ## Flujo SDD obligatorio
 
 Para cada capacidad:

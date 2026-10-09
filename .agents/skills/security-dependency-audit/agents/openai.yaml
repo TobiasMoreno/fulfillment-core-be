@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditoría de dependencias"
+  short_description: "Audita Maven, imágenes y cadena de suministro"
+  default_prompt: "Usa $security-dependency-audit para auditar las dependencias e imágenes actuales sin modificarlas."

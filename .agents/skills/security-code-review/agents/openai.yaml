@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revisión de seguridad"
+  short_description: "Detecta vulnerabilidades explotables en cambios"
+  default_prompt: "Usa $security-code-review para revisar este cambio y reportar findings de seguridad basados en evidencia."
